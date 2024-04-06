@@ -1,9 +1,9 @@
 
 .main_header_container{
-    width: 100%;
+    width: 90%;
     margin: auto;
     display: flex;
-    max-width: 900px;
+    max-width: 60rem;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
@@ -24,12 +24,6 @@
     font-weight: bold;
 }
 
-.logo:hover{
-    will-change: text-shadow;
-    transition: text-shadow 0.2s linear;
-    text-shadow: 2px 2px 8px #e78044;
-}
-
 .nav_style ul li {
     list-style-type: none;
     margin: 0;
@@ -43,12 +37,9 @@
 
 .nav_style li{
     cursor: pointer;
-    color: white;
     font-weight: bold;
 }
 
-.nav_style li:hover{
-    will-change: text-shadow;
-    transition: text-shadow 0.2s linear;
-    text-shadow: 2px 2px 8px #e78044;
+.nav_style li a{
+    text-decoration: none;
 }

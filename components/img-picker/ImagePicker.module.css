@@ -1,0 +1,25 @@
+
+.img_picker{
+    display: flex;
+    gap: 1rem;
+}
+
+.preview_img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #B3AEA5;
+    display: grid;
+    place-content: center;
+}
+
+.preview_img > img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.pick_img_btn{
+    background-color: #B3AEA5;
+    padding: 0.5rem 0.75rem;
+    border: none;
+}
