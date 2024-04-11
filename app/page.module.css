@@ -51,19 +51,6 @@
     background: linear-gradient(90deg, #fd4715, #f9b241);
   }
   
-  .cta a:first-child {
-    background: transparent;
-    font-weight: normal;
-    color: #ff9b05;
-    padding-left: 0;
-  }
-  
-  .cta a:first-child:hover,
-  .cta a:first-child:active {
-    background: transparent;
-    color: #f9b241;
-  }
-  
   .section {
     display: flex;
     flex-direction: column;

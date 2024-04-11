@@ -4,9 +4,21 @@ import Link from "next/link";
 import styleClasses from './page.module.css';
 import { getMeals } from "@/lib/meal";
 
+//nextjs will add this metadata by default to html
+//if i don't have metadata here then this component will add metadata from layout
+export const metadata = {
+    title: 'All meals',
+    description: 'Delicious meals, shared by a food-loving community.',
+  };
+
+async function Meals() {
+    const meals = await getMeals();
+
+    return <MealsGrid meals={meals} />
+}
+  
 
 export default function MealsPage() {
-    const meals = getMeals();
 
     return (
         <>
@@ -20,7 +32,7 @@ export default function MealsPage() {
                 </div>
             </header>
             <main>
-                <MealsGrid meals={meals} />
+                {Meals()}
             </main>
         </>
     )

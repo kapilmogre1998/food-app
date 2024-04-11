@@ -20,11 +20,6 @@ export default function MainHeader() {
                             Browse Meals
                         </NavLink>
                     </li>
-                    <li>
-                        <NavLink pathName='/community' >
-                            Foodies Community
-                        </NavLink>
-                    </li>
                 </ul>
             </nav>
         </header>

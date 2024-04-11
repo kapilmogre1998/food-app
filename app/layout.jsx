@@ -37,3 +37,14 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
+// 1. File Base Routing.
+// 2. Page, Layout, not-found, error this are reserved file name in nextJS
+// 3. Instead of a (anchor tag) -> Link, image tag => Image
+// 4. we create our own dynamic meta-data or seperate meta-data
+// 5. use client -> Next JS allow component to render on client browser 
+// for example a component relies on usestate , event handling behaviour because these features require JavaScript execution, which is not directly available in SSR rendering.
+// 6. In Next JS components execute on the server during the initial render or during build time. There are two primary ways to utilize `use server` in Next.js
+// Function level(at top of the function)   2. File level (add ‘use server’ at the top of the file.)
+// 7.Handling form submission on server side rather than performing on client side

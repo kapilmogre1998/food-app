@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useRef, useState } from 'react';
 import styleClassName from './ImagePicker.module.css';
 
